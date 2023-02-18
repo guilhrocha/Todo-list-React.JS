@@ -19,7 +19,7 @@ export default function Home() {
     }
 
   return (
-    <div>
+    <div className="centralizar">
         <h1>Lista de Tarefas</h1>
         <Container maxWidth="xs" className="container">
         <Form fazerTarefa={fazerTarefa} />
